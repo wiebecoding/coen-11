@@ -1,5 +1,5 @@
 # coen-11
-A complilation of code written for COEN 11 - Introduction to Advanced Programming in C
+A compilation of code written for COEN 11 - Introduction to Advanced Programming in C
 
 Lab 1 - Create a math game where you have to find the quotient of a two randomly generated numbers
 
