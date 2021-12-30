@@ -35,7 +35,7 @@ int main(int argc, char *argv[]){
         printf("- To save to binary file, type 5\n");
         printf("- To print the binary file, type 6\n");
         printf("- To quit and save to txt file, type 7\n");
-        printf("- To reverse linked list, type 8\nHow would you like to proceed?\n> ");
+        printf("- To reverse linked list, type 8\nHow would you like to proceed? Coded by Brian Wiebe\n> ");
         scanf("%d", &option);
         switch(option){
             case 1:

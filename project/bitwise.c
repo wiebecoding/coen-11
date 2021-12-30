@@ -48,6 +48,7 @@ int main(int argc, char *argv[]){
 
 int saveFileBinary(char fileName[],char cryptArray[100000],int cryptLen){
     printf("%i",cryptLen);
+    printf("Coded by Brian Wiebe");
     FILE *outputFile = fopen(fileName, "wb");
     fwrite(cryptArray,sizeof(char),cryptLen,outputFile);
     fclose(outputFile);

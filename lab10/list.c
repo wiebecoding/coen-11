@@ -125,7 +125,7 @@ int showContacts(){
             printf("\n");
             }
     }
-    printf("_____END_OF_CONTACTS_____\n\n");
+    printf("_____END_OF_CONTACTS_____Coded by Brian Wiebe\n\n");
     return 1;
 }
 
@@ -153,7 +153,7 @@ int showLetterContacts(char inputLetter[]){
     if(thru != NULL){
         printf("\n");
     }
-    printf("_____END_OF_CONTACTS_____\n\n");
+    printf("_____END_OF_CONTACTS_____Coded by Brian Wiebe\n\n");
     return 1;
 }
 

@@ -31,7 +31,7 @@ int main(){
 
     while (running == 1){
         int option = 0;
-        printf("Welcome to your phonebook.\n - To add a contact, type 1.\n - To remove a name, type 2.\n - To show all contacts, type 3.\n - To quit, type 4\nHow would you like to proceed? ");
+        printf("Welcome to your phonebook.\n - To add a contact, type 1.\n - To remove a name, type 2.\n - To show all contacts, type 3.\n - To quit, type 4\nHow would you like to proceed? Coded by Brian Wiebe");
         scanf("%i",&option);
 	switch(option){
 	case 1:

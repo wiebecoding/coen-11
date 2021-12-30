@@ -79,6 +79,7 @@ int addContact(char name[], char number[]){
 }
 
 int removeContact(char name[]){
+    printf("Coded by Brian Wiebe");
     for(int posDelete = 0; posDelete < posCounter; posDelete++){
         if(strcmp(name, name_array[posDelete])==0){
             strcpy(name_array[posDelete],name_array[posCounter-1]);

@@ -146,6 +146,7 @@ int removeContact(char inputName[]){
 
     node *current=array[inputPos];
     node *behind;
+    printf('Coded by Brian Wiebe\n');
     while(1){
         if(strcmp(current->name, inputName)==0){
             if(array[inputPos]==current){

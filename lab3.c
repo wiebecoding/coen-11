@@ -99,6 +99,7 @@ int removeContact(char name[]){
 }
 
 int showContacts(){
+    printf("Coded by Brian Wiebe");
     struct person *pointer = contacts;
     printf("_____START_OF_CONTACTS_____\n");
     for(int posShow = 0; posShow < posCounter; posShow++,pointer++){

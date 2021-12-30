@@ -51,7 +51,7 @@ int main(int argc, char *argv[]){
         printf("- To remove a name, type 2.\n");
         printf("- To show all contacts, type 3.\n");
         printf("- To show all corresponding contacts, type 4\n");
-        printf("- To quit and save to file, type 5\nHow would you like to proceed?\n> ");
+        printf("- To quit and save to file, type 5\nHow would you like to proceed? Coded by Brian Wiebe\n> ");
         scanf("%d", &option);
     
         //switch that decides what to do based off of input

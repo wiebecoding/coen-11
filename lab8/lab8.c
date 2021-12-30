@@ -59,7 +59,7 @@ int main(int argc, char *argv[]){
         printf("- To show all corresponding contacts, type 4\n");
         printf("- To save to binary file, type 5\n");
         printf("- To print the binary file, type 6\n");
-        printf("- To quit and save to txt file, type 7\nHow would you like to proceed?\n> ");
+        printf("- To quit and save to txt file, type 7\nHow would you like to proceed? Coded by Brian Wiebe\n> ");
         scanf("%d", &option);
     
         //switch that decides what to do based off of input

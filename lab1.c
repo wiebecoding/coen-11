@@ -36,6 +36,7 @@ int main(void)
 
 int dividendCalc(int divisor,int quotient)
 {
+        printf("Coded by Brian Wiebe");
         int dividend = divisor * quotient;
         printf("The dividend is %i, the divisor is %i\n", dividend, divisor);
         printf("What is the quotient? \n");
